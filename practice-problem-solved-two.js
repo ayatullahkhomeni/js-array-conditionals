@@ -1,0 +1,12 @@
+var fruits = ['Apple', 'Banana', 'Orange'];
+console.log(fruits);
+console.log(fruits[1]);
+console.log(fruits);
+fruits[1] = 'Mango';
+console.log(fruits);
+var index = fruits.indexOf('Orange');
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.push('watermelon');
+console.log(fruits); 
